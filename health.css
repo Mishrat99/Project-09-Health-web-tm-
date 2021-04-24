@@ -1,0 +1,188 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+outline: 0;
+text-decoration: none;
+/* list-style-type:none; */
+}
+
+.grandf{ background-color:coral;height: 73px;
+         display: flex;
+         flex-direction: row;
+         flex-wrap: wrap;
+         justify-content: space-between;
+         align-items: center;
+       
+
+}
+
+.father{ margin-left: 5%;
+}
+
+.father img{ background-repeat: no-repeat;
+    background-size: cover;
+    height: 65px;width: 65px;
+    border-radius: 50%;
+    
+
+}
+
+
+.child {margin-right: 5%;
+
+}
+
+.child a{ color: black;
+    font-weight: bolder;
+    font-size: larger;
+    margin-left: 50px;
+ 
+}
+
+.child a:hover{ 
+                color:cornsilk;
+               font-size: 22px;
+ }
+
+
+ .grandm{   
+    background-color:wheat;height: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  
+ }
+
+.childone{ margin-right: 8%; }
+ .childone img{ background-repeat: no-repeat;
+    background-size: cover;
+    height: 260px;width: 260px;
+    border-radius: 50%;
+   
+}
+
+
+ .mother{   width: 50%;
+            font-size: larger;
+            /* text-align: center; */
+            margin-left: 8%;
+            line-height: 30px;
+} 
+
+.btn{  border: 1px solid black; background-color:wheat;
+       height: 30px;
+    font-size: large;
+   width: 170px;  
+}
+
+.btn:hover{  background-color:white;
+cursor: pointer;
+font-size: 100%;
+transition: 1s;
+}
+   
+.grands{background-color:beige;height: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;}
+
+
+.son img{background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;width: 350px;
+    border-radius: 50%;
+    margin-left: 20%;
+   }
+
+.sonn{ width: 40%;  
+/* line-height: 40px; */
+font-weight: italic;
+font-size: 18px;
+margin-right: 7%;
+}
+
+.grandd{   background-color:burlywood;height: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   
+ }
+
+    .childon img{ background-repeat: no-repeat;
+        background-size: cover;
+        height: 150px;width: 150px;
+        border-radius: 50%;   }
+
+        .childtw{  
+text-align: center;
+width: 250px;
+     }
+     .childtw p{font-size: medium;   }
+
+     .daugther{ display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 3%;
+    background-color:cornsilk;
+    height: 400px;
+    width: 300px;
+    margin-left: 20px;
+    }
+
+    .btntw{   width: 100px;
+        height: 25px;
+        color: black;     
+ }
+
+ .btntw:hover{   
+background-color:darkkhaki;
+font-size: 85%;
+transition: 1s;
+cursor: pointer;
+ }
+
+ .sen{ 
+      background-color:burlywood;
+   }
+
+ .sen h1{ border-bottom: 2px solid black; 
+         width: 80%;
+}
+
+.finisher{ background-color:blanchedalmond;height: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;  }
+
+.finishtw{ margin-right: 10%;  }
+    .finishtw img{  
+      width: 200px;
+    
+    }
+
+    .finishon{ font-size: 25px; 
+    margin-left: 10%;
+    
+    }
+
+
+.foot{   
+display: flex;
+justify-content: center;
+align-items: center;
+height: 200px;
+background-color:darkgray;
+font-weight: bolder;
+font-size:larger;
+}
